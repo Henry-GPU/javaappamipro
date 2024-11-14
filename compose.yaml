@@ -1,0 +1,8 @@
+services:
+  mysql:
+    image: 'mysql:latest'
+    environment:
+      - 'MYSQL_DATABASE=amipro_db'
+      - 'MYSQL_ROOT_PASSWORD=H3nryG4132002..'
+    ports:
+      - '3308:3306'
